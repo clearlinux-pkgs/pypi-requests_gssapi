@@ -7,7 +7,7 @@
 #
 Name     : pypi-requests_gssapi
 Version  : 1.3.0
-Release  : 21
+Release  : 22
 URL      : https://files.pythonhosted.org/packages/cf/65/3fcdb60ef9130ea857422651dd4a90e44a6991f7cb832d45872e492649bd/requests-gssapi-1.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/cf/65/3fcdb60ef9130ea857422651dd4a90e44a6991f7cb832d45872e492649bd/requests-gssapi-1.3.0.tar.gz
 Summary  : A GSSAPI authentication handler for python-requests
@@ -47,6 +47,7 @@ python components for the pypi-requests_gssapi package.
 Summary: python3 components for the pypi-requests_gssapi package.
 Group: Default
 Requires: python3-core
+Requires: pypi-gssapi
 Provides: pypi(requests_gssapi)
 
 %description python3
@@ -65,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1708100624
+export SOURCE_DATE_EPOCH=1708440982
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
