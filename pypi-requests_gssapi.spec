@@ -7,7 +7,7 @@
 #
 Name     : pypi-requests_gssapi
 Version  : 1.3.0
-Release  : 23
+Release  : 24
 URL      : https://files.pythonhosted.org/packages/cf/65/3fcdb60ef9130ea857422651dd4a90e44a6991f7cb832d45872e492649bd/requests-gssapi-1.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/cf/65/3fcdb60ef9130ea857422651dd4a90e44a6991f7cb832d45872e492649bd/requests-gssapi-1.3.0.tar.gz
 Summary  : A GSSAPI authentication handler for python-requests
